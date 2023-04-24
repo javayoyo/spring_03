@@ -12,7 +12,7 @@
 </head>
 <body>
 <h2>monday5</h2>
-<form action="/monday5-param">
+<form action="/monday5-param" method="post">
 <input type="text" name="name" placeholder="이름"><br>
 남<input type="radio" name="gender" value="male">
   여<input type="radio" name="gender" value="female"> <br>
