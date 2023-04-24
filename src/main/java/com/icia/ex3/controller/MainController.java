@@ -105,15 +105,7 @@ public class MainController {
     }
 
 
-//   ??? 컨트롤러에 같은 주소를 처리하는 메서드 해결 방법 ?
-    @GetMapping("/monday")
-    public String monday1(Model model) {
-        String month = "12";
-        String day = "25";
-        model.addAttribute("m1",month);
-        model.addAttribute("m2",day);
-        return "monday1";
-    }
+
 
 //    @GetMapping("/list")
 //    public String list(Model model) {

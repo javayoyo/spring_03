@@ -15,8 +15,6 @@
 <h2> monday1 입니다</h2>
 <button onclick="param()">파라미터 전송</button>
 
-<p>${m1}</p>
-<p>${m2}</p>
 
 
 </body>
