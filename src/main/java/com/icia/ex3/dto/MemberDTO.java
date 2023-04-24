@@ -10,7 +10,6 @@ import lombok.*;
 // @Data > get,set, ToString 기능을 전부 포함
 
 
-
 public class MemberDTO {
 
     private Long id;
@@ -23,9 +22,6 @@ public class MemberDTO {
     private String gender;
     private String city;
     private String[] lang;
-
-
-
 
 
 }

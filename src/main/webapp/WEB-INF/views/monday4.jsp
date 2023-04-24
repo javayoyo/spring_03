@@ -33,15 +33,10 @@
     <td>${member.name}</td>
     <td>${member.mobile}</td>
 
-
 </tr>
 </c:forEach>
 </table>
 
 
-
 </body>
-
-
-
 </html>
