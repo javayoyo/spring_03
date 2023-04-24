@@ -69,8 +69,8 @@ public class MainController {
 
     }
 
-    @GetMapping("/monday1-param")
-    public String monday1param(@RequestParam("month")String month, @RequestParam("day")String day) {
+    @GetMapping("/monday1-param1")
+    public String monday1Param(@RequestParam("month")String month, @RequestParam("day")String day) {
         System.out.println("month = " + month + ", day = " + day);
        return "index";
     }
