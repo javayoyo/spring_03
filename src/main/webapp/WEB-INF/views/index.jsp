@@ -35,6 +35,9 @@
     const monday4 = () => {
         location.href="/monday4";
     }
+    const monday5 = () => {
+        location.href="/monday5";
+    }
 
 
 </script>
